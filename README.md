@@ -1,5 +1,8 @@
 # JSON Formatter
-it is a simple project to format the unformatted JSON object
+it is a simple project to format the unformatted JSON object.
+
+project link : https://rohitbarate.github.io/json_formatter/
+
 
 # Desktop : starting view
 
