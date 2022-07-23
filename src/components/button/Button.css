@@ -13,7 +13,7 @@
     justify-content: center;
     height: 50%;
     width: 80%;
-    row-gap: 20px;
+    gap: 20px;
 }
 .btn{
     padding: 10px 20px;
@@ -35,4 +35,13 @@
 .btn:hover{
     cursor: pointer;
     transform: scale(0.9);
+}
+
+@media screen and (max-width:1000px) {
+    .buttonRow{
+        flex-direction: row;
+    }
+    .btn{
+        width: max-content;
+    }
 }

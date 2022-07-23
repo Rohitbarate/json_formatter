@@ -13,7 +13,7 @@ function OutputScreen(props) {
         className='outputText textArea'
         cols="30"
         rows="10"
-        placeholder='please write a unformatted json data in left textarea.'
+        placeholder='please write a unformatted json data in input textarea.'
         value={formattedData ? formattedData : error}
         disabled>
 
