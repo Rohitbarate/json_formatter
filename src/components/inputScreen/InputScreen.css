@@ -1,0 +1,21 @@
+.mainContainer{
+    flex: 3;
+    /* border: 1px solid #000; */
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.textArea{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+    letter-spacing: 1px;
+    line-height: 23px;
+    border-radius: 5px;
+    border-color: #bdbbbb;
+}

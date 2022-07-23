@@ -1,0 +1,38 @@
+.buttonBox{
+    flex: 1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.buttonRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 80%;
+    row-gap: 20px;
+}
+.btn{
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border: 1px solid #000000;
+}
+.formatBtn{
+    background-color: #55f055;
+}
+.clearBtn{
+    background-color: #e63e3e;
+   
+}
+
+.btn:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}
